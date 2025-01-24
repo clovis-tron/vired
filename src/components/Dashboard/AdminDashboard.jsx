@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
-import Notifications from "./Notifications";
 import { FaUsers, FaBook, FaDollarSign, FaChartLine } from "react-icons/fa";
 import axios from "axios";
 import { Pie, Bar } from "react-chartjs-2";

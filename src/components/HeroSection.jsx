@@ -1,13 +1,11 @@
 import React from "react";
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 import Slider from "react-slick"; // Import the react-slick carousel
 import "slick-carousel/slick/slick.css"; // Slick carousel CSS
 import "slick-carousel/slick/slick-theme.css"; // Slick carousel theme CSS
 
 // Reusable Slide Component
 const Slide = ({ image, title, description, buttons }) => {
-  const controls = useAnimation();
-
   return (
     <motion.div
       className="relative h-[80vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] overflow-hidden"

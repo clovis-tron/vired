@@ -113,13 +113,13 @@ const Navbar = () => {
                           </a>
                         </li>
                         <li>
-                          <a
-                            href=""
+                          <button
                             className="flex items-center hover:text-orange-500"
+                            onClick={() => navigate("/coaching")}
                           >
                             <FaChalkboardTeacher className="mr-2" />
                             Coaching
-                          </a>
+                          </button>
                         </li>
                         <li>
                           <a
@@ -338,42 +338,6 @@ const Navbar = () => {
                       <li>
                         <a href="/memberships" className="hover:text-orange-500">
                           Memberships
-                        </a>
-                      </li>
-                    </ul>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-              <button
-                onClick={() =>
-                  setResourcesDropdownOpen(!resourcesDropdownOpen)
-                }
-                className="w-full text-left hover:text-orange-500 mt-4"
-              >
-                Resources {resourcesDropdownOpen ? "▲" : "▼"}
-              </button>
-              <AnimatePresence>
-                {resourcesDropdownOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, height: 0 }}
-                    animate={{ opacity: 1, height: "auto" }}
-                    exit={{ opacity: 0, height: 0 }}
-                    className="mt-2 ml-4"
-                  >
-                    <ul className="space-y-2">
-                      <li>
-                        <a href="/blog" className="hover:text-orange-500">
-                          Blog
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/guides" className="hover:text-orange-500">
-                          Guides
-                        </a>
-                      </li>
-                      <li>
-                        <a href="/webinars" className="hover:text-orange-500">
-                          Webinars
                         </a>
                       </li>
                     </ul>
