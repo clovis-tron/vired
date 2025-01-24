@@ -20,7 +20,7 @@ const LoginPage = () => {
         role,
       });
 
-      const { token, message } = response.data;
+      const { token } = response.data; // Removed the unused 'message'
 
       // Save the token in localStorage
       localStorage.setItem("userToken", token);

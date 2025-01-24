@@ -69,6 +69,16 @@ export default function SubscriptionPlans() {
     },
   };
 
+  // Initiate payment when the "Pay Now" button is clicked
+  const initiatePayment = () => {
+    if (!name || !email || !phoneNumber || !selectedPlan) {
+      setError("Please fill all the fields.");
+      return;
+    }
+    setIsLoading(true);
+    openPaymentModal(); // Trigger Flutterwave modal to initiate payment
+  };
+
   return (
     <div className="bg-gray-900 text-white min-h-screen py-10">
       <div className="container mx-auto px-4">
