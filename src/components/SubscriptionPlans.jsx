@@ -172,12 +172,13 @@ export default function SubscriptionPlans() {
             </div>
 
             <div className="mt-6">
-              <FlutterWaveButton
-                {...fwConfig}
+              <button
                 className={`bg-orange-500 text-white px-6 py-3 rounded-lg ${isLoading ? "opacity-50 cursor-not-allowed" : ""}`}
                 disabled={isLoading}
-                text={isLoading ? "Processing..." : "Pay Now"}
-              />
+                onClick={initiatePayment} // Use initiatePayment here
+              >
+                {isLoading ? "Processing..." : "Pay Now"}
+              </button>
             </div>
           </div>
         )}
