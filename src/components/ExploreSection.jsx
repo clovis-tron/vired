@@ -7,7 +7,7 @@ const ExploreSection = () => {
         {/* Left Side: Image */}
         <div className="flex-1">
           <img
-            src="/images/slide2.png" // Replace with your actual image path
+            src="/Images/slide2.png" // Replace with your actual image path
             alt="E-Learning"
             className="rounded-lg shadow-lg w-full"
           />

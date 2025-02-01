@@ -3,10 +3,10 @@ import React from "react";
 const TrustedBySection = () => {
   // List of company logos
   const companies = [
-    { name: "Coursera", src: "/images/coursera.png", alt: "Coursera Logo" },
-    { name: "Udemy", src: "/images/udemy.png", alt: "Udemy Logo" },
-    { name: "Education", src: "/images/education.png", alt: "Education Logo" },
-    { name: "Indeed", src: "/images/indeed.png", alt: "Indeed Logo" },
+    { name: "Coursera", src: "/Images/coursera.png", alt: "Coursera Logo" },
+    { name: "Udemy", src: "/Images/udemy.png", alt: "Udemy Logo" },
+    { name: "Education", src: "/Images/education.png", alt: "Education Logo" },
+    { name: "Indeed", src: "/Images/indeed.png", alt: "Indeed Logo" },
   ];
 
   return (

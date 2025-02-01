@@ -82,7 +82,7 @@ const Classroom = () => {
                 <video
                   className="w-full rounded-lg shadow-lg"
                   controls
-                  poster="/images/classroom-placeholder.jpg"
+                  poster="/Images/classroom-placeholder.jpg"
                 >
                   <source
                     src={`http://localhost:4999${videos[0].url}`}
