@@ -97,7 +97,7 @@ const HeroSection = () => {
   // Slide Data
   const slides = [
     {
-      image: "/images/slide1.png",
+      image: "/Images/slide1.png",
       title: "Empowering Education Virtually",
       description:
         "Explore courses, trainings, and resources designed to inspire and educate in the digital age.",
@@ -107,7 +107,7 @@ const HeroSection = () => {
       ],
     },
     {
-      image: "/images/slide2.png",
+      image: "/Images/slide2.png",
       title: "Discover Data Science",
       description: "Learn how data shapes our world and build critical skills.",
       buttons: [
@@ -116,7 +116,7 @@ const HeroSection = () => {
       ],
     },
     {
-      image: "/images/slide3.png",
+      image: "/Images/slide3.png",
       title: "Master Python Programming",
       description:
         "Build dynamic solutions and enhance your coding skills.",
