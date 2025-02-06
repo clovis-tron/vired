@@ -93,7 +93,7 @@ const LoginPage = () => {
         <div className="text-center mt-6">
           <p className="text-gray-600">Don't have an account?</p>
           <motion.button
-            onClick={() => navigate("/register")}
+            onClick={() => navigate("/signup")}
             className="mt-2 px-4 py-2 bg-teal-500 text-white rounded-md hover:bg-teal-600 transition-colors duration-300"
             whileHover={{ scale: 1.05 }}
           >
