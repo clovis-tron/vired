@@ -5,10 +5,17 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-8">
       <div className="container mx-auto text-center">
+        {/* Logo */}
+        <div className="mb-4">
+          <img src="/Images/logo.svg" alt="Vired Logo" className="h-10 mx-auto" />
+        </div>
+        
         <h3 className="text-xl font-bold mb-4">Vired</h3>
         <p className="text-sm mb-6">
           Empowering education virtually. © {new Date().getFullYear()} Vired. All rights reserved.
         </p>
+
+        {/* Social Icons */}
         <div className="flex justify-center space-x-6 mb-6">
           <a
             href="https://facebook.com"
@@ -43,6 +50,8 @@ const Footer = () => {
             <FaInstagram size={24} />
           </a>
         </div>
+
+        {/* Footer Links */}
         <div className="text-sm">
           <a href="#features" className="hover:text-primary mx-2">
             Features
