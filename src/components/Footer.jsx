@@ -10,7 +10,7 @@ const Footer = () => {
           <img src="/Images/logo.svg" alt="Vired Logo" className="h-10 mx-auto" />
         </div>
         
-        <h3 className="text-xl font-bold mb-4">Vired</h3>
+        
         <p className="text-sm mb-6">
           Empowering education virtually. © {new Date().getFullYear()} Vired. All rights reserved.
         </p>
