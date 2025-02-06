@@ -70,7 +70,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center">
           <Link to="/">
-            <img src="/Images/viredlogo.png" alt="Vired Logo" className="h-10" />
+            <img src="/Images/logo.svg" alt="Vired Logo" className="h-10" />
           </Link>
         </div>
 
@@ -301,7 +301,7 @@ const Navbar = () => {
             >
               ✕
             </button>
-            <div className="w-full">
+            <div className="w-full text-center"> {/* Centered Menu */}
               <button
                 onClick={() => setProductsDropdownOpen(!productsDropdownOpen)}
                 className="w-full text-left hover:text-orange-500"
@@ -358,12 +358,6 @@ const Navbar = () => {
               } text-white px-6 py-3 rounded-lg hover:${isLoggedIn ? "bg-red-600" : "bg-orange-600"} transition-colors duration-300`}
             >
               {isLoggedIn ? "Logout" : "Login"}
-            </button>
-            <button
-              className="bg-transparent text-white border-2 border-white px-6 py-3 rounded-lg hover:bg-gray-700"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Get Started
             </button>
           </motion.div>
         )}

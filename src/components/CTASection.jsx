@@ -34,7 +34,7 @@ const CTASection = () => {
           </a>
           <a
             href="#contact"
-            className="ml-4 bg-white text-primary px-6 py-3 rounded-lg font-bold hover:bg-gray-200 transition-colors duration-200"
+            className="ml-4 bg-transparent text-white border-2 border-white px-6 py-3 rounded-lg hover:bg-gray-700 hover:text-white transition-colors duration-300"
           >
             Contact Us
           </a>
